@@ -48,7 +48,7 @@ public class UserServiceImpl implements IUserService {
 		return userRepository.save(user);
 	}
 
-	private UserDto mapToUser(User user) {
+	/*private UserDto mapToUser(User user) {
 		UserDto userDto = new UserDto();
 		userDto.setId(user.getId());
 		userDto.setFirstName(user.getFirstName());
@@ -56,5 +56,6 @@ public class UserServiceImpl implements IUserService {
 		userDto.setEmail(user.getEmail());
 		return userDto;
 	}
+	*/
 
 }
