@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 	
 	@Autowired
-	@Qualifier(value = "userServiceOpenFeign")
+	@Qualifier(value = "userServiceImpl")
 	private IUserService userService;
 
 	@PostMapping
